@@ -16,6 +16,7 @@
     "replace": "yarn workspace hardhat replace",
     "upload": "yarn workspace hardhat upload",
     "postdeploy": "yarn workspace hardhat postdeploy",
+    "build": "yarn workspace react-app build",
     "graph-codegen": "yarn workspace dapp-learning-test codegen",
     "graph-build": "yarn workspace dapp-learning-test build",
     "graph-deploy": "yarn workspace dapp-learning-test deploy",
