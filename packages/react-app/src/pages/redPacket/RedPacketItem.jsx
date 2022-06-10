@@ -152,7 +152,7 @@ export const RedPacketItem = props => {
             top: 5
           }}>Dapp Learning 专属红包{`${item?.expired ? '(Expired)' : ""}`}</div>
           <div style={{
-            width: 180,
+            width: 210,
             height: 280,
             color: "#ffd9aa",
             fontSize: 20,
@@ -175,7 +175,7 @@ export const RedPacketItem = props => {
                 >
                   {Number(claimedNumber(item?.claimed_amount, item?.decimals))}
                 </a>
-                {item?.symbol || "DAI"}
+                {item?.symbol || "USDC"}
               </div>}
             </div>
           </div>
